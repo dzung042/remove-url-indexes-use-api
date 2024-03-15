@@ -1,6 +1,6 @@
 # hướng dẫn xoá index sử dụng google api
 Cài thư viện cần thiết
-```pre
+```sh
 cd remove-url-indexes-use-api
 pip install -r requirements.txt
 ```
