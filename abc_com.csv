@@ -1,0 +1,5 @@
+url,action_status
+http://sub1.abc.com/,Unactioned
+http://sub2.abc.com/,Unactioned
+http://sub3.abc.com/,Unactioned
+http://sub4.abc.com/,Unactioned
