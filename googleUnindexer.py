@@ -81,8 +81,8 @@ def query_google(index):
             response, content = http.request(
                 ENDPOINT, method="POST", body=str(content))
             # enable debug 
-            with open(f'response_{i+1}.json', 'w') as f:
-                f.write(content.decode('utf-8'))
+           # with open(f'response_{i+1}.json', 'w') as f:
+            #    f.write(content.decode('utf-8'))
             # end enable debug
             if response.status == 429:
                 print("HTTP 429 recieved, exceeded Indexing API quota")
